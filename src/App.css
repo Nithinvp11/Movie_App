@@ -1,0 +1,61 @@
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.App h1 {
+  text-align: center;
+  color: #333;
+}
+
+.movie-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+/* Add these new styles to src/App.css */
+
+.app-header {
+  background-color: #333;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.app-header h1 {
+  margin: 0 0 15px 0;
+  color: white;
+}
+
+.app-header form {
+  display: flex;
+  justify-content: center;
+}
+
+.app-header input {
+  font-size: 1em;
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  width: 300px;
+  outline: none; /* Removes the blue glow on click */
+}
+
+.app-header button {
+  font-size: 1em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #f6c50e; /* TMDB's gold color */
+  color: #333;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.app-header button:hover {
+  background-color: #d4ac0d;
+}

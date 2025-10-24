@@ -1,0 +1,40 @@
+.movie-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* This keeps the image corners rounded */
+  text-align: center;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+}
+
+.movie-card h3 {
+  font-size: 1.1em;
+  padding: 10px;
+  margin: 0;
+}
+
+.movie-card p {
+  font-size: 0.9em;
+  color: #666;
+  padding: 0 10px 10px;
+  margin: 0;
+}
+/* Add to src/MovieCard.css */
+.movie-card-link {
+  text-decoration: none; /* Removes the blue underline from the link */
+  color: inherit; /* Makes the text color normal */
+}
+
+.no-image-placeholder {
+  height: 300px; /* Same as a poster, approx */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+  color: #aaa;
+  font-weight: bold;
+}
